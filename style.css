@@ -1,0 +1,481 @@
+.wholepage {
+    background-color: #f7d9cb;
+    height: 100px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    color: gray;
+    display: flex;
+
+
+}
+
+/* .menu{
+    color: grey;
+    font-size: 10px;
+} */
+/* 
+.logo {
+    height: 100px;
+} */
+/* .search{
+
+}
+.searchbox {
+    height: 48px;
+    margin-top: 25px;
+} */
+/* .search{
+    display: flex;
+    justify-content: space-between;
+
+ } */
+.searchbox {
+    height: 50px;
+    margin: 18px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 12px;
+}
+
+.halfpage {
+    background-color: white;
+    height: 60px;
+    margin-top: 85px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.cottonsaree {
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+}
+
+.saree1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: auto;
+
+}
+.cotton{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        font-family: math;
+        margin: 15px;
+}
+.cs1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.saree2 {
+    line-height: 41px;
+    margin-top: 50px;
+    /* display: flex;
+    justify-content: space-evenly; */
+
+}
+
+.searchicon {
+    height: 20px;
+}
+
+.search {
+    display: flex;
+}
+
+
+.landimg {
+    background: rgb(2, 0, 36);
+    /* background: linear-gradient(90deg, rgb(3 0 61) 0%, rgb(187 0 125) 50%, rgb(255 0 224) 100%); */
+    width: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: 100% 100%;
+    background-blend-mode: overlay;
+    background-color: #00000036;
+    background-image: url(./images/Platonic\ love.jpeg);
+    position: absolute;
+    top: 150px;
+
+}
+
+.menubar {
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    /* margin-left: 700px; */
+}
+
+.menu1 {
+    /* margin: 10px 11%; */
+    font-size: 18px;
+    line-height: 30px;
+    /* margin: -3px; */
+    margin-top: 22px;
+    margin-left: 30px;
+}
+
+.menu2 {
+    /* margin: 10px 11%; */
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.shplogo {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.menu3 {
+    font-size: 18px;
+    margin: 45px;
+
+}
+
+.subpage2 {
+    height: 505px;
+    position: absolute;
+    background-color: transparent;
+    width: 35% !important;
+
+}
+
+.subpage3 {
+    display: flex;
+    margin: auto;
+    height: 540px;
+}
+
+.subpara1 {
+    font-family: sans-serif;
+    font-weight: 100px;
+    color: black;
+}
+
+.landimg1 {
+    position: absolute;
+    width: 10%;
+    top: 40px;
+    left: 20px;
+}
+
+.landimg2 {
+    position: absolute;
+    width: 10%;
+    top: 340px;
+    left: 320px;
+}
+
+.landimg3 {
+    position: absolute;
+    width: 7%;
+    top: 352px;
+    left: 34px;
+}
+
+/* .landimg4{
+    height: 60px;
+    background-color: #a64896;
+    margin-top: -53px;
+} */
+.subhead1 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0%;
+    font-family: math;
+    /* padding-left: 186px; */
+    padding-right: 40px;
+
+}
+
+/* .subpara2{
+    display: flex;
+    align-items: center;
+    /* padding: 18px; */
+/* padding: 11px 0%;
+    width: 30%;
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    padding-left: 38px;
+} */
+*/ .logo1 {
+    height: 10px;
+}
+
+.video {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.cardsheading {
+    margin: 30px 6%;
+    font-size: 20px;
+    font-family: math;
+    margin-top: 70px;
+    display: flex;
+    /* margin-left: 95px; */
+    /* gap: 72px; */
+    /* line-height: 40px; */
+    justify-content: space-between;
+}
+
+.card1 {
+    height: 300px;
+    /* position: absolute; */
+
+}
+
+.cards {
+    justify-content: space-between;
+    border: 1px solid #9e9e9e59;
+}
+
+.cardhalf {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 20px;
+}
+
+.cardhead1 {
+    font-size: 22px;
+}
+
+.cardfull {
+    padding: 20px;
+}
+
+.cardpara {
+    padding: 20px;
+}
+
+.cards1 {
+    height: 400px;
+}
+
+.addbtn {
+    /* width: 217px; */
+    height: 45px;
+    /* margin: 20px; */
+    background-color: brown;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    font-size: 18px;
+
+
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    margin: 20px;
+}
+
+.card2 {
+    height: 400px;
+}
+
+.fullbox {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.box1 {
+    width: 385px;
+    height: 400px;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(0 0 0 / 0%) 15%, rgba(0, 0, 0, 0.5));
+    /* box-shadow: 58px 41px 44px 20px rgb(0 0 0 / 0); */
+}
+
+.dwnapp {
+    color: white;
+    font-size: 20px;
+}
+
+.androidapp {
+    line-height: 40px;
+    color: white;
+}
+
+.getbtn {
+    width: 55%;
+    border-radius: 5px;
+    color: white;
+}
+
+.playstore {
+    width: 20%;
+}
+
+.box {
+    display: flex;
+    justify-content: end;
+    margin-top: 80px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 62%;
+    height: 62px;
+    border-radius: 6px;
+    justify-content: space-evenly;
+}
+
+.num1 {
+    color: blue;
+}
+
+.num2 {
+    color: black;
+    font-weight: bold;
+}
+
+.subline1 {
+    font-family: sans-serif;
+    line-height: 30px;
+}
+
+.subline2 {
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.container-fluid {
+    width: 100%;
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-around;
+}
+
+.subline3 {
+    line-height: 35px;
+}
+
+.subline4 {
+    line-height: 25px;
+    /* margin-top: 20px; */
+}
+
+.subline5 {
+    line-height: 28px;
+}
+
+.subline6 {
+    line-height: 30px;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    border: 1px solid #9e9e9e85;
+    width: 110%;
+    height: 50px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px;
+}
+
+.sub {
+    display: flex;
+    align-items: solid black;
+    background-color: black;
+    width: 50%;
+    height: 50px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.fb {
+    height: 25px;
+}
+
+.insta {
+    height: 28px;
+}
+
+.youtube {
+    height: 30px;
+}
+.fullimg1{
+  
+    /* background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #9E9E9E, rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%); */
+    
+    background-image: radial-gradient(circle, #d07162 0%, #9E9E9E 100%);/* background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%); */
+    margin-top: 60px;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: 100% 100%;
+    /* background-color: #00000036; */
+    /* background: rgb(2,0,36); */
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(156 39 176 / 52%) 6%, rgb(254 155 124) 50%, rgb(253 220 141) 100%);
+} */}
+.container{
+    margin-top: 60px;
+}
+.day{
+
+    /* padding: 55px; */
+    font-size: 30px;
+    font-family: auto;
+    color: #411099;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0%;
+    
+}
+.card8{
+    width: 100%;
+    /* margin-left: 30px; */
+    /* margin-top: 55px; */
+    height: 63vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.smallcard{
+    display:flex;
+    justify-content: space-evenly;
+}
+.fff{
+    width: 23%;
+
+}
+.clr{
+    color: whitesmoke;
+}
